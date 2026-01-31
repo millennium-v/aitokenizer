@@ -418,7 +418,8 @@ export default function Home() {
       <footer className="border-t border-red-900/30 py-6 px-6">
         <div className="max-w-4xl mx-auto flex flex-wrap gap-4 justify-center text-sm text-[#737373]">
           <a href="https://www.moltbook.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-400 transition-colors">Moltbook</a>
-          <a href="https://clanker.world" target="_blank" rel="noopener noreferrer" className="hover:text-red-400 transition-colors">Clanker</a>
+          <a href="https://clawn.ch/" target="_blank" rel="noopener noreferrer" className="hover:text-red-400 transition-colors">Clawn.ch</a>
+          <a href="https://clanker.world/clanker/0x7355251a09567891b04c51CF12E154FEb6388c2b" target="_blank" rel="noopener noreferrer" className="hover:text-red-400 transition-colors">Official Token</a>
           <a href="https://base.org" target="_blank" rel="noopener noreferrer" className="hover:text-red-400 transition-colors">Base</a>
         </div>
       </footer>
