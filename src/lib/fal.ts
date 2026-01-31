@@ -13,7 +13,7 @@ export async function generateLogo(prompt: string): Promise<string> {
     });
     
     // Handle various response structures
-    const images = res.images || res.data?.images;
+    const images = (res as any).images || (res as any).data?.images;
     if (images && images.length > 0) {
       return images[0].url;
     }
